@@ -13,7 +13,7 @@ for (let num of data) {
 promedio = suma / data.length; 
 
 console.log("La suma es " + suma);
-console.log("Promedio " + promedio);
+console.log("Promedio " + Math.round(promedio));
 
 data.push(promedio);
 

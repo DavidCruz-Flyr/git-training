@@ -15,5 +15,3 @@ with open("./data.txt", "w", encoding="utf-8") as file:
 with open("./data.txt", "r", encoding="utf-8") as file:
     data = file.read().splitlines()
 
-for num in data:
-    print(num)
